@@ -2,15 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-/* === Custom classes for 3D Flip Navbar === */
-.perspective {
-  perspective: 1000px;
-}
-
-.transform-style-preserve-3d {
-  transform-style: preserve-3d;
-}
-
-.backface-hidden {
-  backface-visibility: hidden;
-}
