@@ -9,6 +9,9 @@ import SignupForm from "./pages/SignupForm";
 import LoginForm from "./pages/LoginForm";
 import Dashboard from "./pages/Dashboard";
 import VerifyEmail from "./components/VerifyEmail";
+import PostJob from "./components/PostJob";
+import DetailsAndCategory from "./components/Details&Category";
+import Location from "./components/location";
 
 
 const App = () => {
@@ -25,6 +28,9 @@ const App = () => {
           <Route path="/login" element={<LoginForm />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/verify-email/:token" element={<VerifyEmail />} />  {/* New route */}
+          <Route path="/post-job" element={<PostJob/>} />
+<Route path="details" element={<DetailsAndCategory/>} />
+<Route path="location" element={<Location/>} />
         </Routes>
       </div>
     </Router>
